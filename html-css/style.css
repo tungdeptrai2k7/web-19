@@ -1,0 +1,22 @@
+.menu{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding:0px 50px 15px 50px;
+}
+.style{
+padding:15px 50px 15px 50px;
+background-color: #D5B0AC;
+}
+.high{
+    background-color: #9CD08F;
+    color: white;
+}
+.menu_vertical .style, .menu_vertical.high{
+    background-color: #D5B0AC;
+    color: black;
+    text-align: left;
+    width: 60px;
+    display: block;
+    border: solid while 2px;
+}

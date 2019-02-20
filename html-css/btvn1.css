@@ -1,0 +1,114 @@
+.background{
+    background-image: url('./images/btvn1/background.jpg');
+    height: 500px;
+    width: 1350px;
+    position: absolute;  
+}
+.heading1{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: white;
+    font-size: 50px;
+}
+.text1{
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    color: white;
+    font-size: 20px;
+}
+.background2{
+    position: relative;
+    background-color: aliceblue;
+}
+.heading2{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+.text2{
+    position: absolute;
+    left: 50px;
+    top: 550px;
+    color: #A0A0A0;
+}
+.images{
+    position: relative;
+    height:450px;
+}
+.img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 420px;
+}
+.left{
+    position: relative;
+    width: 900px;
+    float:left;
+}
+.mex{
+    position: relative;
+    left: 50px;
+    top: 600px;
+    background-image: url("./images/btvn1/mex.jpg");
+    background-size: 420px 200px;
+}
+.tok{
+    position: relative;
+    left: 50px;
+    top: 600px;
+    background-image: url("./images/btvn1/tokyo.jpg");
+    background-size: 420px 200px;
+}
+
+.new{
+    position: relative;
+    left: 50px;
+    top: 600px;
+    background-image: url("./images/btvn1/new.jpg");
+    background-size: 420px 200px;
+
+}
+.paris{
+    position: relative;
+    left: 50px;
+    top: 600px;
+    background-image: url("./images/btvn1/paris.jpg");
+    background-size: 420px 200px;
+}
+.text3{
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+.right{
+    position: absolute;
+    top: 600px;
+    left: 950px;
+    background-image: url("./images/btvn1/syd.jpg");
+    height: 420px;
+    width: 380px;
+}
+.text4{
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+.footer{
+    position: relative;
+    left: 50px;
+    top: 600px;
+}
+.f{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 165px;
+    width: 420px;
+}
+.text5{
+    color:#A0A0A0;
+}

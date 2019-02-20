@@ -40,7 +40,7 @@ function generate(testLengthArray){
       case 1 :
       testLengthArray.indexOf(target)=-1; 
       break;
-      case 2: 
+      case 2:
       target = dataTest[0];
       break;
       case 3:
