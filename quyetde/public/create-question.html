@@ -11,10 +11,13 @@
     <h2>
         Hãy hỏi cộng đồng một câu hỏi đúng/sai hoặc có/không
     </h2>
-    <form>
-        <textarea class='input' rows='6'>
-        </textarea> 
+    <form action='./create-question' method='post'>
+        <textarea id='content' class='input' rows='6' name='content'> </textarea> 
+        <div id='remain-characters'>
+            200 character left
+        </div>
         <input type ='submit' value= 'Gửi' />
     </form>
+    <script src='./create-question.js'></script>
 </body>
 </html>
