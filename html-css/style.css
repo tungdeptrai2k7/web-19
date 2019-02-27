@@ -1,22 +1,46 @@
-.menu{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    padding:0px 50px 15px 50px;
-}
-.style{
-padding:15px 50px 15px 50px;
-background-color: #D5B0AC;
-}
-.high{
-    background-color: #9CD08F;
-    color: white;
-}
-.menu_vertical .style, .menu_vertical.high{
-    background-color: #D5B0AC;
-    color: black;
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  #menu ul {
+    background: red;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
     text-align: left;
-    width: 60px;
+  }
+  #menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+  }
+  #menu li a {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
     display: block;
-    border: solid while 2px;
-}
+  }
+  #menu li:hover {
+    background: #9CD08F;
+    color:white;
+  }
+  
+  #menu ul li {
+    position: relative;
+  }
+  #menu .sub-menu {
+    background-color: red;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    display: none;
+  }
+  #menu li:hover > .sub-menu {
+    display: block;
+    background: #9CD08F;
+    color:white;
+    
+  }
