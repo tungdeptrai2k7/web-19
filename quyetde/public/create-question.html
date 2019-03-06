@@ -11,13 +11,17 @@
     <h2>
         Hãy hỏi cộng đồng một câu hỏi đúng/sai hoặc có/không
     </h2>
-    <form action='./create-question' method='post'>
-        <textarea id='content' class='input' rows='6' name='content'> </textarea> 
+    <div id='error-message' style='color:red'>
+
+    </div>
+    <form id='create-form' action='./create-question' method='post'>
+        <textarea id='content' class='input' rows='6' name='content'></textarea> 
         <div id='remain-characters'>
             200 character left
         </div>
         <input type ='submit' value= 'Gửi' />
     </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
     <script src='./create-question.js'></script>
 </body>
 </html>
